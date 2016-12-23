@@ -1,1 +1,8 @@
 Enter ip or domain and check other sites hosted on same IP
+
+Usage: 
+  ./rvipcheck.sh [Target] [--use-proxy]
+  
+   Target - IP or Domain to check
+   --use-proxy - Option that use random proxy from proxy_list to request the end_point (cause of limit by IP)
+   Note: not all proxies in list works
