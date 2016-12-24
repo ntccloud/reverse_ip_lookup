@@ -16,7 +16,7 @@ else
 
 	cmd="curl $proxy -s --max-time 10 'http://api.hackertarget.com/reverseiplookup/?q=${args[0]}' --compressed"
 
-	ipcmd="dig +short ${args[0]}/"
+	ipcmd="dig +short ${args[0]}"
 	
 	res="$(eval $cmd)"
 	ip="$(eval $ipcmd)"
